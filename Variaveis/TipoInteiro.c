@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main(){
     int valor;
+
     printf("Digite o valor\n");
     printf("-->");
-    scanf("%s", &valor);
+    scanf("%d", &valor);
 
 
-    printf("\nValor: %c\n", valor);
+    printf("\nValor: %d\n", valor);
 }
